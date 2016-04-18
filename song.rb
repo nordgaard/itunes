@@ -11,7 +11,6 @@ attr_reader :title, :artist, :duration, :lyrics
 
   def play
     'say #{@lyrics}'
-    
   end
 
   def friendly_duration
